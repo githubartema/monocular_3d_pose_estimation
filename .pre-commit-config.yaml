@@ -1,0 +1,27 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    - id: trailing-whitespace
+    - id: check-yaml
+      exclude: '(data)/.*'
+    - id: check-json
+    - id: end-of-file-fixer
+
+-   repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+    -   id: black
+        exclude: '(data)/.*'
+
+-   repo: https://github.com/pycqa/isort
+    rev: 5.11.5
+    hooks:
+    -   id: isort
+        exclude: '(data)/.*'
+
+-   repo: https://github.com/pycqa/flake8
+    rev: '3.7.9'
+    hooks:
+    -   id: flake8
+        exclude: '(data)/.*'

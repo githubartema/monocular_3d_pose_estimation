@@ -1,0 +1,6 @@
+include LICENSE.txt
+include README.md
+recursive-include pose_estimation/data *
+recursive-include pose_estimation/utils/data *
+recursive-include pose_estimation/utils/yolov3/data *
+recursive-include pose_estimation/utils/yolov3/cfg *
