@@ -16,7 +16,7 @@ It's also worth noting that there are many potential enhancements to be made, su
 | ------------- | ------------- |
 
 ## Install using Docker
-1. Put pretrained **MHFormer** model to the **./mhformer_checkpoints/81** directory.
+1. Put pretrained **MHFormer** model to the **./mhformer_checkpoints/receptive_field_81** directory.
 Put pretrained **HRNet** and **YOLOv3** models to **./pose_estimation/utils/data** directory.
 As a result the structure should look like this:
 ```bash
