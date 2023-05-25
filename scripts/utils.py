@@ -252,8 +252,6 @@ def img2video(video_path: str, output_path: str) -> None:
     cap = cv2.VideoCapture(video_path)
     fps = int(cap.get(cv2.CAP_PROP_FPS))  # + 5
 
-    print(f"FPS: {fps}")
-
     fourcc = cv2.VideoWriter_fourcc(*"MJPG")
 
     names = sorted(glob.glob(os.path.join(output_path, "*.png")))
@@ -267,3 +265,5 @@ def img2video(video_path: str, output_path: str) -> None:
         videoWrite.write(img)
 
     videoWrite.release()
+
+    print(f"Results have been saved to {os.path.dirname(output_path)}\n")
