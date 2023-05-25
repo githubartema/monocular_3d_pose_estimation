@@ -12,9 +12,9 @@ For more detailed information on the original research and model, please refer t
 
 It's also worth noting that there are many potential enhancements to be made, such as the usage of different filters (i.e. Extended Kalman Filter), better and faster landmark detectors like OpenPose or MoveNet (or custom ones), and further optimization of the transformer model for inference on low-end devices. And, generally speaking, just usage of Multi-view system :)
 
-| ![example_1](figure/example_1.gif)  | ![example_2](figure/example_2.gif) |
+| ![example_1](figure/example_1.GIF)  | ![example_2](figure/example_2.GIF) |
 | ------------- | ------------- |
-i
+
 ## Install using Docker
 1. Put pretrained **MHFormer** model to the **./mhformer_checkpoints/81** directory.
 Put pretrained **HRNet** and **YOLOv3** models to **./pose_estimation/utils/data** directory.
