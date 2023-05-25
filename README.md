@@ -22,7 +22,7 @@ As a result the structure should look like this:
 ```bash
 .
 ├── mhformer_checkpoints
-│   └── 81
+│   └── receptive_field_81
 │       └── mhformer_pretrained.pth
 ├── pose_estimation
 │   └── utils
