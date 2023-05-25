@@ -23,8 +23,8 @@ REQUIRED = [
     "scikit-image",
     "opencv-python==4.7.0.72",
     "ipython==8.12.2",
-    "torch>=1.9.0",
-    "torchvision>=0.8.0",
+    "torch>=1.9.0,<2.0.0",
+    "torchvision>=0.10.0",
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))
